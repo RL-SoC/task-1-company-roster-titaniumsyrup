@@ -88,13 +88,13 @@ if __name__ == "__main__":  # Equivalent to int main() {} in C++.
             # Change branch to new branch or add a new branch depending on class
             # Inheritance should automatically do this. 
             # There should be no IF-ELSE or ternary operators in this zone
-            ID = int(input("Enter Employee ID to promote: "))
+            ID = int(input("Enter Employee ID "))
              
             pass
             #### NO IF ELSE ZONE ENDS #################################################
 
         elif last_input == 5:
-            ID = int(input("Enter Employee ID to promote: "))
+            ID = int(input("Enter Employee ID "))
             position=input("promote to:")
             for employee in engineer_roster + sales_roster:
                 if employee.ID == ID:
